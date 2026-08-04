@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME   = "devops-portfolio"
-        AWS_REGION   = "eu-west-33"
+        AWS_REGION   = "eu-west-3"
         ECR_REGISTRY = "106300404586.dkr.ecr.eu-west-3.amazonaws.com"
         ECR_REPO     = "devops-portfolio"
     }
