@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME   = "devops-portfolio"
-        AWS_REGION   = "eu-west-3"
+        AWS_REGION   = "eu-west-33"
         ECR_REGISTRY = "106300404586.dkr.ecr.eu-west-3.amazonaws.com"
         ECR_REPO     = "devops-portfolio"
     }
@@ -104,7 +104,7 @@ pipeline {
     post {
 
         success {
-            ech 'Pipeline Completed Successfully!'
+            echo 'Pipeline Completed Successfully!'
         }
 
         failure {
